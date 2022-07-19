@@ -12,11 +12,18 @@
 
 // console.log(gostaMusica, tocaInstrumento, pensaAprender);
 
-const gostaMusica = "Você gosta de música?"
-const respGostaMusica = prompt(gostaMusica)
+const gostaMusica = "Você gosta de música?";
+const tocaInstrumento = "Você toca algum instrumento?";
+const pensaAprender = "Pensou aprender algum instrumento?";
+
+const respGostaMusica = prompt(gostaMusica);
+const respTocaInstrumento = prompt(tocaInstrumento);
+const respPensaAprender = prompt(pensaAprender);
 
 
-console.log(gostaMusica, respGostaMusica);
+
+
+console.log(gostaMusica, respGostaMusica, tocaInstrumento, respTocaInstrumento, pensaAprender, respPensaAprender);
 
 
 
